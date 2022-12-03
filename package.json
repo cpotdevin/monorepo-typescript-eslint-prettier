@@ -1,0 +1,10 @@
+{
+  "name": "monorepo-typescript-eslint-prettier",
+  "scripts": {
+    "lint": "eslint \"**/*.{js,ts}\" --ignore-pattern \".eslintrc.js\""
+  },
+  "workspaces": [
+    "packages/*",
+    "backend"
+  ]
+}

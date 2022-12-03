@@ -1,0 +1,3 @@
+{
+  "extends": "@monorepo-typescript-eslint-prettier/tsconfig/base.json"
+}
